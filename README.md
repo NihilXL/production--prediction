@@ -5,10 +5,6 @@ Code for T3/Wheat Predicathon
 1. Overview
 We implemented a Genomic Best Linear Unbiased Prediction (GBLUP) approach to predict grain yield for nine focal trials under two cross-validation scenarios (CV0 and CV00). All analyses were conducted in R (v4.3.3).
 
-The code are stored in the repository: 
-[https://github.com/violetlin17/production -prediction]
-
-
 2. Training Data Selection
 Training trials for each focal trial were identified using the Training_Trial_Info.rds file provided by the Predictathon organizers (retrieved from the official GitHub repository: jeanlucj/T3_predictathon_find_training_trials). This file was automatically downloaded at the start of each pipeline run to ensure the most up-to-date trial selection was used.
 Training trials were categorized into two tiers:
